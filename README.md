@@ -27,7 +27,7 @@ To use, simply import `UIImage+GRKImageCrop.h`:
 Then you can use the category to create a cropped image from a given image:
 
 	[image cropImageBelowAlphaThreshold:0.0f completion:^(UIImage *croppedImage, NSError *error) {
-		if (image)
+		if (croppedImage)
 		{
 			//Use croppedImage
 		}
